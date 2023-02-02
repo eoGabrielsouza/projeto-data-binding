@@ -14,4 +14,13 @@ linkGithub = 'https://github.com/eoGabrielsouza'
 getValor(){
   return 1;
 }
+cursoAngular: boolean = true
+
+
+getCurtirangular(){
+  return true
+
+
+}
+urlImage = 'http://lorempixel.com.br/500/400/'
 }

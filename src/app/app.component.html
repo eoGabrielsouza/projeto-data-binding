@@ -1,15 +1,55 @@
+<!-- <section>
+
+  <article>
+
+    <h3>Class e Style binding</h3>
+
+  <div>
+
+    Selecione uma classe:
+    <select #classe (change)="0">
+
+      <option value="alert-success">Success</option>
+      <option value="alert-info">Information</option>
+      <option value="alert-warning">Warning</option>
+      <option value="alert-danger">Error</option>
+
+    </select>
+    <br><br>
+
+    <div class="alert alert-success " role="alert" [class.alert-success]="classe.value == 'alert-success'">
+      SUCCESS
+    </div>
+    <div class="alert alert-info" role="alert" [class.alert-info]="classe.value == 'alert-info'">
+      INFORMATION
+    </div>
+    <div class="alert alert-warning " role="alert" [class.alert-warning]="classe.value == 'alert-warning'">
+      WARNING
+    </div>
+    <div class="alert alert-danger" role="alert" [class.alert-danger]="classe.value == 'alert-danger'">
+      ERROR
+    </div>
+
+  </div>
+
+  </article>
+
+</section> -->
+
+
 <section>
 
-<article>
+  <article>
 
-   <h1>LINK PARA HITHUB</h1>
+    <h3>Event binding</h3>
 
-   <p>clique no link a seguir para acessar o meu github! {{linkGithub}}</p>
+    <div>
 
-   <p>2 + 2 é = {{ 1 + 2 + getValor()}}</p>
 
-   <p>{{getValor() + getValor() + 1000 - 15}}</p>
-   
+
+    </div>
+
 </article>
 
 </section>
+
