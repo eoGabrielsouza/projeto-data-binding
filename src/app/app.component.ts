@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-data-binding';
+
+
+linkGithub = 'https://github.com/eoGabrielsouza'
+
+getValor(){
+  return 1;
+}
 }
